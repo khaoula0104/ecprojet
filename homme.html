@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>salvia.ma</title>
+ <script src="https://cdn.tailwindcss.com"></script>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="pt-16 ">
+  <div class="md:shrink-0">
+    <div class="h-56 w-full object-cover md:h-full md:w-48" ></div>
+  
+    <nav class="p-5  shadow md:flex md:items-center md:justify-between fixed top-0 left-0 w-full z-10 bg-white  ">
+        <div class="flex justify-between items-center ">
+            <span class="text-5xl font-serif text-center">Logo</span>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon></span> 
+        </div>
+        <ul class="md:flex md:items-center gap-[4vw] z-[-1] md:z-auto md:static absolutebg-white w-full left -0  md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-100 mt-3">
+          <li class="mx-4 my-6 md:my-0"><a class="text-2xl hover:text-orange-300 duration-500  text-gray-600  underline underline-offset-3 "href="ecproject.html">Femme</a></li>
+        
+          <li   class="mx-4 my-6 md:my-0"><a class="text-2xl hover:text-orange-300 duration-500  text-gray-600  underline underline-offset-3 "href="homme.html">Homme</a></li>
+          <li   class="mx-4 my-6 md:my-0"><a class="text-2xl hover:text-orange-300 duration-500  text-gray-600  underline underline-offset-3 "href="#">Maison</a></li>
+          <li   class="mx-4 my-6 md:my-0"><a class="text-2xl hover:text-orange-300 duration-500  text-gray-600  underline underline-offset-3 "href="#">Enfants & jouets</a></li>
+          <li   class="mx-4 my-6 md:my-0"><a class="text-2xl hover:text-orange-300 duration-500  text-gray-600  underline underline-offset-3 "href="#">Sport</a></li>
+          <li   class="mx-4 my-6 md:my-0"><a class="text-2xl hover:text-orange-300 duration-500  text-gray-600  underline underline-offset-3 "href="#">Gaming</a></li>
+         
+</ul>
+
+
+                  <div class="flex  space-x-2  ">
+                    <button class=" hover:bg-violet-200 active:bg-violet-400   px-3 py-2 text-2xl rounded-md left-0 "><a href="#">
+                        Panier</a>
+                     
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block ">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                    </li>
+                  </button>
+                    <button class=" hover:bg-violet-200 active:bg-violet-400   px-3 py-2 text-2xl rounded-md "><a href="#">
+                     Favoris</a>
+                     
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                           </svg>
+                           </button>
+                           <button class=" hover:bg-violet-200 active:bg-violet-400   px-3 py-2 text-2xl rounded-md "><a href="#">
+                            Connexion</a>
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                              </svg>
+                              
+                                  </button>
+                  </div>
+                
+    </nav>
+  
+    
+  
+ 
+    <script>
+        function Menu(e){
+            let list = document.querySelector('ul');
+            e.name ===
+            'menu' ? (e.name = "close", list.classList.
+            add ('top-[80px]') , list.classList.add ('opacity-100')
+            ) :(e.name =
+            "menu",list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+            }
+            </script>
+             <div class="md:shrink-0">
+                <div class="h-48 w-full object-cover md:h-full md:w-48" ></div>
+                        <div class="title text-2xl font-sans mt-24 tracking-wide  font-light text-slate-600  text-center ">Livraison partout au Maroc</div>
+                      </div>
+           
+  
+              <div class="bg-violet-100 mt-5">
+  
+           
+         
+
+           
+
+ <!-- bar search -->
+          <div class="max-w-2xl mx-auto top-0  p-16 pr-16">
+
+           
+
+              <form class="flex items-center md:flex justify-center">   
+                    <label for="simple-search" class="sr-only">Search</label>
+                    <div class="relative w-full">
+                        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                            <svg class="w-5 h-5 text-gray-500 dark:text-gray-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <input type="text" id="simple-search" class="bg-gray-50 border border-orange-500 text-gray-900 text-sm rounded-2xl focus:ring-orange-500 focus:orange-500 block w-full pl-10 p-2.5  dark:bg-gray-500 dark:border-gray-600 dark:placeholder-gray-100 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
+                    </div>
+                    <button type="submit" class="p-2.5 ml-2 text-sm font-medium text-white bg-orange-400 rounded-lg border border-white hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-orange-200 dark:bg-blue-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                </form>
+          </div>
+
+            <!--dropdown-->
+
+
+            <div class="relative inline-block float-left top-0 ml-56 -mt-28  ">
+              
+              <button class="inline-flex justify-center  w-full  border border-gray-300 shadow-md px-5 rounded-t-md rounded-lr py-4  text-2xl font-semibold text-gray-700  focus:outline-none  bg-white" id="options-menu" aria-haspopup="true" aria-expanded="false" type="button">
+                Catégorie
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="-mr-1 ml-2 h-5 w-5 mt-2 "   >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>
+                
+                
+              </button>
+           
+            
+              <div class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden z-10" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                <div class="py-1 " role="none">
+                  
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Nouveautés
+                 
+                  </a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Tendances
+                   
+                  </a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Vêtements
+                   
+                  </a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Tops
+                  </a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Pantalons & shorts
+                 </a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Chaussures & accessories
+                </a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Marques
+                  </a>
+                 
+
+                </div>
+              </div>
+            </div>
+            <script>
+              const button = document.getElementById('options-menu');
+     const menu = document.querySelector('#options-menu + .hidden');
+
+     button.addEventListener('click', () => {
+     menu.classList.toggle('hidden');
+});
+            </script>
+
+
+
+<!--slider-->
+<div class="flex justify-center ">
+  <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+  
+  <article x-data="slider" class="relative  w-1/2   flex flex-shrink-0 overflow-hidden shadow-2xl z-0 ">
+    <div class="rounded-full bg-orange-600 text-gray-700 absolute top-5 right-5 text-sm px-2 text-center z-10">
+      <span x-text="currentIndex"></span>/
+      <span x-text="images.length"></span>
+  </div>
+  
+      <template x-for="(image, index) in images">
+          <figure class="h-96" x-show="currentIndex == index + 1" x-transition:enter="transition transform duration-300"
+          x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+          x-transition:leave="transition transform duration-300" x-transition:leave-start="opacity-100"
+          x-transition:leave-end="opacity-0">
+          <img :src="image" alt="Image" class="absolute inset-0 z-10 h-96 w-full object-cover opacity-70" />
+          
+          </figure>
+      </template>
+  
+      <button @click="back()"
+          class="absolute left-14 top-1/2 -translate-y-1/2 w-11 h-11 flex justify-center items-center rounded-full shadow-md z-10 bg-gray-100 hover:bg-gray-200 ">
+          <svg class=" w-8 h-8 font-bold transition duration-500 ease-in-out transform motion-reduce:transform-none text-gray-500 hover:text-gray-600 hover:-translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7">
+              </path>
+          </svg>
+      </button>
+  
+      <button @click="next()"
+      class="absolute right-14 top-1/2 -mt-10 translate-y-1/2 w-11 h-11 flex justify-center items-center rounded-full shadow-md z-10 bg-gray-100 hover:bg-gray-200">
+      <svg class=" w-8 h-8 font-bold transition duration-500 ease-in-out transform motion-reduce:transform-none text-gray-500 hover:text-gray-600 hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
+      </svg>
+      </button>
+  </article>
+  
+  <script>
+      document.addEventListener('alpine:init', () => {
+          Alpine.data('slider', () => ({
+              currentIndex: 1,
+              images: [
+             
+              'https://cdn.pixabay.com/photo/2018/12/05/13/41/woman-3857758_1280.jpg',
+                'https://cdn.pixabay.com/photo/2018/03/12/22/15/clothing-3221103_1280.jpg',
+                'https://cdn.pixabay.com/photo/2016/04/19/13/39/store-1338629_1280.jpg',
+             
+              ],
+              back() {
+                  if (this.currentIndex > 1) {
+                      this.currentIndex = this.currentIndex - 1;
+                  }
+              },
+              next() {
+                  if (this.currentIndex < this.images.length) {
+                      this.currentIndex = this.currentIndex + 1;
+                  } else if (this.currentIndex <= this.images.length){
+                      this.currentIndex = this.images.length - this.currentIndex + 1
+                  }
+              },
+          }))
+      })
+  </script>
+  </div>
+  
+<!--products-->
+<h1 class="font-light text-2xl text-gray-500 ml-60 mt-10 ">Excellente qualité.Prix raisonnable.</h1>
+
+<div class="border border-gray-100 bg-gray-50 w-3/4 mx-auto hover:shadow-lg rounded-md">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+
+
+      <div class="group relative">
+        <div   class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-violet-300 shadow-md :aspect-none group-hover:opacity-75 lg:h-80 -mt-16" >
+      
+           <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full "> <a href="product.html"></a>
+           </a>
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-md text-violet-700 font-serif">
+              <a href="product.html">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Black</p>
+          </div>
+          <p class="text-sm font-medium text-emerald-500">$35</p>
+        </div>
+      </div>
+
+           <div class="group relative">
+            <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-violet-300 shadow-md :aspect-none group-hover:opacity-75 lg:h-80 -mt-16"> 
+              <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg" alt="Front of men&#039;s Basic Tee in Aspeen white." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              
+            </div>
+          
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-md text-violet-700 font-serif">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Aspen white</p>
+          </div>
+          <p class="text-sm font-medium text-emerald-500">$35</p>
+        </div>
+      </div>
+       
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-violet-300 shadow-md :aspect-none group-hover:opacity-75 lg:h-80 -mt-16">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg" alt="Front of men&#039;s Basic Tee in Aspeen white." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+      
+    <div class="mt-4 flex justify-between">
+      <div>
+        <h3 class="text-md text-violet-700 font-serif">
+          <a href="#">
+            <span aria-hidden="true" class="absolute inset-0"></span>
+            Basic Tee
+          </a>
+        </h3>
+        <p class="mt-1 text-sm text-gray-500">Charcoal</p>
+      </div>
+      <p class="text-sm font-medium text-emerald-500">$35</p>
+    </div>
+  </div>
+    
+  <div class="group relative">
+    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-violet-300 shadow-md :aspect-none group-hover:opacity-75 lg:h-80 -mt-16">
+      <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg" alt="Front of men&#039;s Basic Tee in Aspeen white." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+    </div>
+  
+<div class="mt-4 flex justify-between">
+  <div>
+    <h3 class="text-md text-violet-700 font-serif">
+      <a href="#">
+        <span aria-hidden="true" class="absolute inset-0"></span>
+        Artwork Tee
+      </a>
+    </h3>
+    <p class="mt-1 text-sm text-gray-500">Iso Dots</p>
+  </div>
+  <p class="text-sm font-medium text-emerald-500">$35</p>
+</div>
+</div>
+
+      
+
+    </div>    
+    
+    <div class="text-center ">
+         
+      <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700   px-4 py-3 mt-16 -ml-20 text-2xl rounded-md "><a href="services.html">
+      Voir plus</a></button></div>
+  </div>
+</div>
+            </div>
+
+<!--footer-->
+<footer>
+  <div class="p-10 bg-gray-800 text-gray-200 mt-16">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg-grid-cols-4 gap-2">
+        <div class="mb-5">
+          <h4 class="text-4xl font-serif pb-5">SALVIA</h4>
+          <i class="material-icons">copyright</i>
+          
+           </div>
+        <div class="mb-5">
+          <h4 class="text-3xl pb-4 font-semibold">Contact</h4>
+          <p class="text-gray-400 text-2xl">Appt Rue Bourdeaux N°8 2ème étage<br>
+           Quartier Hopital <br>
+            Safi <br>
+          <strong>Phone:</strong> +212 523 232 323<br>
+          <strong>Email:</strong> salvia-rose@gmail.com<br> 
+          </p>
+        </div>
+        <div class="mb-5">
+          <h4 class="text-3xl pb-4 font-semibold" >Links</h4>
+          <ul class="text-gray-400">
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="index.html" class="hover:text-yellow-500">Femme </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="about.html" class="hover:text-yellow-500">Homme</a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="services.html" class="hover:text-yellow-500">Maison </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="contactUS.html" class="hover:text-yellow-500">Enfants & jouets </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="contactUS.html" class="hover:text-yellow-500">Sport </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="contactUS.html" class="hover:text-yellow-500">Gaming </a></li>
+          </ul>
+        </div>
+
+        <div class="mb-5">
+          <h4 class="text-2xl pb-4 font-semibold">Aide</h4>
+          <ul class="text-gray-400">
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="web.html" class="hover:text-yellow-500">Livraison </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="commerce.html" class="hover:text-yellow-500">Commande </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="custom.html" class="hover:text-yellow-500">Remboursement </a></li>
+            <li class="pb-3 text-2xl"><i class="fa fa-chevron-right"></i><a href="brand.html" class="hover:text-yellow-500">Statut de commande</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+        </div>
+    </body>
+    </html>
